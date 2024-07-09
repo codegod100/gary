@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "run": "deno run --allow-net --allow-env --allow-read --allow-run server.ts"
+  },
+  "imports":{
+    "child_process": "node:child_process",
+    "http": "node:http"
+  }
+}
